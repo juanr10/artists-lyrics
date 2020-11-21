@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Work Sans', sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+label {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+}
+
+legend {
+  font-family: 'Work Sans', sans-serif; 
+}
+
+form.card{
+   border: none;
+}
+
+div.container{
+  overflow: hidden;
+}
+
+.lyrics {
+  white-space: pre-wrap;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+h2 {
+  margin-bottom: 2rem;
+  font-family: 'Work Sans', sans-serif;
+  border-bottom: 3px solid #1a1a1a ;
+  padding-bottom:10px;
+}
+.card-body i {
+  font-size: 3rem;
+  margin-right: 3rem;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #0084b4;
+}
+.fa-lastfm {
+  color: #d51007;
+}
+
+.errorMessage{
+    background-color: #1a1a1a ;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: #FFF;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
